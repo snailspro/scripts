@@ -27,29 +27,29 @@ mes "Olá "+strcharinfo(0)+", gostaria de qual serviço meu?";
 		mes "[Invocador de MvP]";
 		mes "Bom, se prepare para matar o MvP";
 		next;
-		if(#mvpvip == 0) { mes "Você não invocou nenhum MvP ainda"; close; }
-		if(#mvpvip == 1) { monster "quiz_02",161,346,"Abelha Rainha",1059,1; }
+		if(#mvpvip == 0) {mes "Você não invocou nenhum MvP ainda"; close; }
+		if(#mvpvip == 1) {monster "quiz_02",161,346,"Abelha Rainha",1059,1; }
 		if(#mvpvip == 2) {monster "quiz_02",161,346,"Amon-Ra",1511,1; }
-		if(#mvpvip == 3) { monster "quiz_02",161,346,"Atroce",1785,1;}
-		if(#mvpvip == 4) { monster "quiz_02",161,346,"Bafomé",1039,1;}
+		if(#mvpvip == 3) {monster "quiz_02",161,346,"Atroce",1785,1;}
+		if(#mvpvip == 4) {monster "quiz_02",161,346,"Bafomé",1039,1;}
 		if(#mvpvip == 5) {mes "Desculpe, esse MVP está desativado até a implantação do shield."; close; }
 		if(#mvpvip == 6) {monster "quiz_02",161,346,"Cavaleiro da Tempestade",1251,1; }
-		if(#mvpvip == 7) { monster "quiz_02",161,346,"Dark Snake Lord",1418,1;}
+		if(#mvpvip == 7) {monster "quiz_02",161,346,"Dark Snake Lord",1418,1;}
 		if(#mvpvip == 8) {monster "quiz_02",161,346,"Detale",1719,1; }
 		if(#mvpvip == 9) {monster "quiz_02",161,346,"Dracula",1389,1; }
 		if(#mvpvip == 10) {monster "quiz_02",161,346,"Flor do Luar",1150,1; }
-		if(#mvpvip == 11) { monster "quiz_02",161,346,"Freeoni",1159,1;}
+		if(#mvpvip == 11) {monster "quiz_02",161,346,"Freeoni",1159,1;}
 		if(#mvpvip == 12) {monster "quiz_02",161,346,"Garm",1252,1; }
 		if(#mvpvip == 13) {monster "quiz_02",161,346,"General Tartaruga",1312,1; }
-		if(#mvpvip == 14) { monster "quiz_02",161,346,"Maya",1147,1;}
-		if(#mvpvip == 15) { monster "quiz_02",161,346,"Orc Heroi",1087,1;}
+		if(#mvpvip == 14) {monster "quiz_02",161,346,"Maya",1147,1;}
+		if(#mvpvip == 15) {monster "quiz_02",161,346,"Orc Heroi",1087,1;}
 		if(#mvpvip == 16) {monster "quiz_02",161,346,"Osíris",1038,1; }
-		if(#mvpvip == 17) { monster "quiz_02",161,346,"RSX 0806",1623,1;}
-		if(#mvpvip == 18) { monster "quiz_02",161,346,"Senhor das Trevas",1272,1;}
-		if(#mvpvip == 19) { monster "quiz_02",161,346,"Senhor dos Mortos",1373,1;}
+		if(#mvpvip == 17) {monster "quiz_02",161,346,"RSX 0806",1623,1;}
+		if(#mvpvip == 18) {monster "quiz_02",161,346,"Senhor das Trevas",1272,1;}
+		if(#mvpvip == 19) {monster "quiz_02",161,346,"Senhor dos Mortos",1373,1;}
 		if(#mvpvip == 20) {monster "quiz_02",161,346,"Senhor dos Orcs",1190,1; }
-		if(#mvpvip == 21) { monster "quiz_02",161,346,"Lady Branca",1630,1;}
-		if(#mvpvip == 22) { monster "quiz_02",161,346,"Tao Gunka",1583,1;}
+		if(#mvpvip == 21) {monster "quiz_02",161,346,"Lady Branca",1630,1;}
+		if(#mvpvip == 22) {monster "quiz_02",161,346,"Samurai Encarnado",1492,1;}
 		if(#mvpvip == 23) {monster "quiz_02",161,346,"Tao Gunka",1583,1; }
 		close;
 
